@@ -18,7 +18,6 @@ In a practical implementation however, with small modifications to the script, t
 Python's 'pandas' library is required in the 'route.py' file.
 
 To install:
-
   pip3 install pandas
 
 
