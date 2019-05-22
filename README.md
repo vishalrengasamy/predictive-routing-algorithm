@@ -4,8 +4,11 @@ A routing algorithm that uses the data from an ultrasonic sensor, placed on dust
 
 
 The CSV files, 'data1.csv' and 'data2.csv' are two example datasets, that contain random future values of sensor data with the following assumptions:
+
 -> The depot (starting point of the garbage collection truck) is always assumed to be at coordinate (0, 0). This can be changed in code     without loss of generality.
+
 -> Only 10 coordinates are randomly generated each time the script is run. This is to match the synthetic data generated.
+
 -> Data exists for a 7-day window. 
 
 These values are manipulated so as to allow the script to reset the internal sum. 
