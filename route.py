@@ -9,7 +9,6 @@ import math
 import time 
 import pandas as pd
 import datetime as dt
-import random
 
 #---------------------------#
 # custom exceptions
