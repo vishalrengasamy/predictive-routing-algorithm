@@ -15,5 +15,9 @@ These values are manipulated so as to allow the script to reset the internal sum
 In a practical implementation however, with small modifications to the script, the data can be taken as an input continuously, on a daily basis, and the resulting route (if it exists) can be generated.
 
 
+Python's 'pandas' library is required in the 'route.py' file.
+To install:
+  pip3 install pandas
+
 
 Note: The data used is synthetic as the Python script currently does not actually connect to a network that pulls in sensor data.
